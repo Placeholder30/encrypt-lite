@@ -17,7 +17,9 @@ const ecV2 = function encrypt(encryptionKey, payload) {
   return forge.util.encode64(encrypted.getBytes());
 }
 
-
+app.get("/*/onepiece",(req, res) =>{
+  res.send("hello world")
+})
 app.post("/v2/encrypt", ( req, res)=>{
   try {
     if(!req.body?.encKey){
