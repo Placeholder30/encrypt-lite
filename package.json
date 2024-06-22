@@ -1,14 +1,18 @@
 {
+
+  "engines": {
+    "node": "20"
+  },
   "name": "encrypt-lite",
   "version": "1.0.0",
-  "description": "",
+  "description": "an encrypt app",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "malik",
   "license": "ISC",
   "dependencies": {
     "express": "^4.19.2",
